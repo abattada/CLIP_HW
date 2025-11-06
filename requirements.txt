@@ -1,0 +1,18 @@
+torch==2.3.1+cu121           # PyTorch (CUDA 12.1 build; works on CUDA 12.8 driver)
+torchvision==0.18.1+cu121
+torchaudio==2.3.1+cu121
+datasets==3.0.1
+
+transformers==4.44.2         # Includes AutoProcessor / CLIPProcessor / CLIPVisionModel
+peft==0.13.0                 # Parameter-efficient fine-tuning (LoRA)
+accelerate==0.34.2           # Optional distributed/mixed-precision training
+
+torchinfo==1.8.0             # Model summary inspection
+tqdm==4.66.5                 # Training progress bar
+matplotlib==3.9.2            # Plotting
+seaborn==0.13.2              # Visualization aesthetics
+numpy==2.1.2                 # Math backend
+scikit-learn==1.5.2          # Evaluation metrics (classification_report, etc.)
+scipy==1.14.1
+pandas==2.2.3                # seaborn dependency; compatible with numpy 2.1.x
+pillow==10.4.0 
